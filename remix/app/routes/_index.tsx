@@ -47,7 +47,6 @@ export const loader = async ({ request }: LoaderArgs) => {
   const orderIsValid =
     order !== null && orderOptions.map((current) => current.value).includes(order)
 
-  // encodeURI is used to prevent XSS attacks for search queries
   const query =
     `*[_type == 'course'` +
     (search ? ` && (title match $search || description match $search)]` : ' ]') +
