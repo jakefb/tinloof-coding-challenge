@@ -24,7 +24,7 @@ This will start the Sanity Studio dev server at http://localhost:3333
 For the Remix app you will need to set the `SUPABASE_SECRET_KEY` environment variable to the `service_role` secret key found in the Supabase UI under `Settings > API > Project API keys`. This key should never be exposed to the front-end or shared.
 
 ```sh
-cd rem
+cd remix
 cp .env.example .env # create a .env file, configure as necessary (specifically the SUPABASE_SECRET_KEY variable)
 npm install
 npm run dev
