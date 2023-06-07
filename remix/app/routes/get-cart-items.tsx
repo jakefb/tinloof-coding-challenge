@@ -44,7 +44,8 @@ export async function action({ request }: { request: Request }) {
 
     if (cartItems) {
       return json({
-        cartItems
+        // If there are no cartItems, return an empty array
+        cartItems: cartItems || []
       })
     }
   }
