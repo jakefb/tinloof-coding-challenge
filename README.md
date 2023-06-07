@@ -4,6 +4,8 @@ An e-commerce demo app built with Remix, Sanity.io, and Supabase. The app is a s
 
 The app is coded in TypeScript and styled with Tailwind.
 
+You can view the live application here https://ninja-cats.netlify.app
+
 ## Getting started
 
 ### Install and run Sanity
